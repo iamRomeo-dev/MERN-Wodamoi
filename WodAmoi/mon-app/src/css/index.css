@@ -1,0 +1,155 @@
+/* Remonter le contenu des pages dans le bloc <p> juste sous le header 
+Pour faire l'effet de cadre */
+.profile,
+.PositionDansHerder {
+  position: absolute;
+  top: 220px;
+  transform: translateX(12.5%);
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;  
+}
+
+/* Remonter le contenu de la page d'accueil dans le bloc <p> juste sous le header 
+Pour faire l'effet de cadre */
+.containerHome {
+  position: absolute;
+  top: 180px;
+  transform: translateX(12.5%);
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;  
+}
+
+/* Position des modals */
+.wodTab,
+.prTab
+ {
+  position: absolute;
+  top: 180px;
+  transform: translateX(12.5%);
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Position du graphique des PR*/
+.chartPr {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-55%);
+}
+
+/* Couleur de l'ecriture des onglets des modals */
+.wodTab a,
+.prTab a {
+  color: white;
+}
+.wodTab a:hover,
+.prTab a:hover {
+  color: #495057;
+}
+
+/* Alignement centré de la page d'accueil */
+.containerHome {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Alignement des etiquettes des wods ou des PR */
+ .container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1em;
+  column-gap: 20px;
+}
+
+/* Alignement des etiquettes des wods ou des PR (suite) */
+.wod-container {
+  padding: 10px;
+  text-align: center;
+  flex: 1 1 300px;
+}
+
+/* Create modal */
+.modal-content {
+  margin-top: 6px;
+  top: 40px;
+}
+
+.logoHeader{
+  height: 9rem;
+  width: 9rem;
+}
+
+/* Taille et position des trois petits points pour delete les PR */
+.containerBtnSvgPoints{
+  position: relative;
+}
+.btnSvgPoints{
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  right: 0em;
+  transform: translateY(-50%);
+}
+
+/* Taille de la bar de recherche */
+.searchBarContainer{
+  width: 50% ;
+  margin-left: auto;
+  margin-right: auto;;
+}
+
+/* Postion general des logo hearder */
+.topnav {
+  position: relative;
+  overflow: hidden;
+  padding-top:10em;
+}
+
+/* .topnav a {
+  float: left;
+  text-align: center;
+} */
+
+/* Position du logo Wodamoi dans le header*/
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Position du login/logout dans le header */
+.topnav-right {
+  float: right;
+  position: absolute;
+  right:0%;
+  top: 10%;
+}
+
+/* Taille du login/logout */
+.img-fluid {
+  max-width: 30% !important;
+}
+
+/* Taille logo homme ou femme entre les boutons refresh et create dans PR */
+#Capa_1 {
+  max-width: 10% !important;
+}
+
+/* .btn-outline-light:hover {
+  color: #fff !important;
+} */
+
